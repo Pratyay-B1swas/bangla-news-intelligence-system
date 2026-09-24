@@ -1,7 +1,5 @@
 # bangla-news-intelligence-system
-An event-centric NLP pipeline for Bangla news — clusters same-day articles into events, tracks emerging topics, extracts entities, analyzes sentiment, and compares how different sources frame the same story.
-
-An event-centric intelligence pipeline over Bangla news. Instead of just scraping and listing headlines, this project tries to answer harder, more useful questions about the Bangla news landscape:
+An event-centric NLP pipeline for Bangla news — clusters same-day articles into events, tracks emerging topics, extracts entities, analyzes sentiment, and compares how different sources frame the same story. Instead of just scraping and listing headlines, this project tries to answer harder, more useful questions about the Bangla news landscape:
 
 What is happening right now?
 What topics are emerging?
@@ -97,7 +95,7 @@ Sample Output
 
 A single day's digest looks like this:
 
-📅 2026-09-20 — 3 articles, 2 distinct events
+ 2026-09-20 — 3 articles, 2 distinct events
 
 🔹 Severe flooding in Dhaka
    Sources: prothomalo, bdnews24_bangla (2 articles)
@@ -130,7 +128,6 @@ Ingestion: feedparser, trafilatura, requests
 NLP: sentence-transformers (multilingual embeddings), Hugging Face transformers (BanglaBERT-based NER & sentiment)
 Data: pandas, numpy, scikit-learn (TF-IDF)
 Visualization: matplotlib
-Optional: Anthropic API (Claude) for LLM-assisted framing comparison and narrative daily summaries
 License
 
-This project doesn't currently specify a license. Consider adding one (e.g., MIT) if you intend for others to reuse or build on this code.
+This project doesn't currently specify a license. 
