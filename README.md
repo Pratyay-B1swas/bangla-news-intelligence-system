@@ -28,7 +28,7 @@ Bangla-language news is fragmented across dozens of outlets with no unified way 
 
 The pipeline runs as a single Google Colab notebook (Bangla_News_Intelligence_System.ipynb) — no server or database setup required to get started, though it's structured so pieces can be lifted out into a standalone service later.
 
-Architecture
+Architecture 
 RSS feeds (discovery)
         │
         ▼
@@ -49,8 +49,8 @@ Multilingual sentence embeddings (paraphrase-multilingual-mpnet-base-v2)
         └──► Cross-source framing comparison ──► "how does coverage differ?"
                 │
                 ▼
-        Daily digest / chatbot query interface + dashboard visualizations
-Design Decisions Worth Knowing About
+        Daily digest / chatbot query interface + dashboard visualizations 
+ Design Decisions Worth Knowing About
 
 A few choices in this project were deliberate, not defaults — worth calling out if you're reviewing the code:
 
